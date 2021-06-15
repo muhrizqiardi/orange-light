@@ -1,0 +1,22 @@
+{
+  "name": "orange-light",
+  "description": "Light theme with orange primary color, inspired by \"Orange\" theme made by raxjs -> https://github.com/raxjs/rax-vscode-extensions",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "publisher": "muhrizqiardi",
+  "version": "1.0.1",
+  "categories": ["Themes"],
+  "repository": "https://github.com/muhrizqiardi/orange-light.git",
+  "author": "Muhammad Rizqi Ardiansyah <rizqi.jpg@gmail.com>",
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Orange Light",
+        "uiTheme": "vs",
+        "path": "./themes/orange-light-color-theme.json"
+      }
+    ]
+  }
+}
